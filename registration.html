@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <div class="wrapper-log">
+    <img class="close-registration" src="./images/close-icon.png" alt="close-icon" width="18" height="18">
+    <form class="inputs-form" action="https://fom.in.ua/echo" method="post" autocomplete="off">
+      <div>
+        <div class="link-block">
+          <a class="link-sing" href="#">
+            Login
+          </a>
+          <span class="separation">
+            I
+          </span>
+          <a class="link-sing" href="registration.html">
+            Register
+          </a>
+        </div>
+        <p class="text-reg">
+          Enter your email and password to register.
+        </p>
+        <div class="inputs">
+          <input class="input"
+            type="text"
+            name="username"
+            placeholder="Username"
+            required >
+          <input class="input"
+            type="email"
+            name="email"
+            required
+            placeholder="Enter your email address" >
+          <input class="input input-password" 
+            type="password"
+            name="password"
+            placeholder="Password"
+            minlength="8"
+            required >
+          <input class="input input-password"
+            id="password-check"
+            name="password-check"
+            type="password"
+            placeholder="Confirm Password"
+            title=""
+            required >
+        </div>
+          <button 
+            type="submit" class="btn-reg">
+            Register
+          </button>
+      </div>
+    </form>
+    <p class="text-reg">
+      Or register with
+    </p>
+    <div class="login-for-service">
+      <a class="link-log" href="#">
+        <img class="icon-service" src="./images/googleicn.jpg" alt="google-icn">
+        Continue with Google
+      </a>
+      <a class="link-log" href="#">
+        <img class="icon-service" src="./images/facebookicn.jpg" alt="facebook-icn">
+        Continue with Facebook
+      </a>
+    </div>
+  </div>
+</body>
+</html>

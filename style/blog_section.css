@@ -1,0 +1,147 @@
+.section-blog {
+  margin-top: 94px;
+}
+
+.discription-flowers {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
+
+.block-discription {
+  background: rgb(251,251,251);
+background: linear-gradient(0deg, rgba(251,251,251,1) 250px, rgba(0,0,0,0) 250px);
+  display: flex;
+  align-items: center;
+}
+
+.title-discription-flawers {
+  display: inline;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.text-discription {
+  text-align: right;
+  padding-right: 30px;
+}
+
+.discroption-flawers {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #727272;
+  margin-top: 9px;
+  margin-bottom: 36px;
+}
+
+.find-more-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 11px 27px 9px 28px;
+  border: 0px;
+  border-radius: 6px;
+  background-color: #46a358;
+}
+
+.arrow-right-discription-card {
+  vertical-align: middle;
+}
+
+.blog-section{
+  margin-top: 138px;
+}
+
+.title-span-blog {
+  text-align: center;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.title-blog-section {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 16px;
+  margin-bottom: 15px;
+}
+
+.discription-blog-section {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.discription-blog-card {
+  padding: 9px 11px 12px 15px;
+  display: block;
+}
+
+.blog-card {
+  background-color: #fbfbfb;
+  width: 268px;
+}
+
+.date-blog-card {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #46a358;
+}
+
+.title-card-blog {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #3d3d3d;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.content-card-blog {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #727272;
+  margin-bottom: 9px;
+}
+
+.read-more-card-blog {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3d3d3d;
+  position: relative;
+}
+
+.read-more-card-blog:hover {
+  color: #46a358;
+}
+
+.arrow-right-read-more-card {
+  vertical-align: middle;
+}
+
+.arrow-right-green-read-more-card {
+  vertical-align: middle;
+}
+
+.read-more-card-blog .arrow-right-read-more-card:nth-of-type(2) {
+  display: none;
+}
+
+.read-more-card-blog:hover .arrow-right-read-more-card:nth-of-type(1) {
+  display: none;
+}
+
+.read-more-card-blog:hover .arrow-right-read-more-card:nth-of-type(2) {
+  display: inline;
+}
