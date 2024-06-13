@@ -1,11 +1,8 @@
-.section-blog {
-  margin-top: 94px;
-}
-
 .discription-flowers {
   display: flex;
   justify-content: center;
   gap: 28px;
+  margin-top: 94px;
 }
 
 .block-discription {
@@ -46,6 +43,7 @@ background: linear-gradient(0deg, rgba(251,251,251,1) 250px, rgba(0,0,0,0) 250px
   border: 0px;
   border-radius: 6px;
   background-color: #46a358;
+  display: inline-block;
 }
 
 .arrow-right-discription-card {
@@ -69,7 +67,6 @@ background: linear-gradient(0deg, rgba(251,251,251,1) 250px, rgba(0,0,0,0) 250px
 .title-blog-section {
   font-weight: 700;
   font-size: 30px;
-  line-height: 16px;
   margin-bottom: 15px;
 }
 
